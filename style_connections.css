@@ -1,0 +1,100 @@
+.connections-page{
+width: 75%;
+color: white;
+font-size: 20px;
+font-weight: 600;
+}
+
+.content-container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+max-width: 1200px;
+margin: auto;
+}
+
+.text-content {
+width: 79%;
+}
+
+.text-content h1 {
+font-size: 2em;
+font-weight: bold;
+font-family: 'Beirut', sans-serif;
+}
+
+.text-content p {
+font-size: 1.3em;
+line-height: 1.2;
+padding-bottom: 21px;
+}
+
+
+.connection-button button {
+color: white;
+background-color: black;
+border: 2px solid black;
+border-radius: 13px;
+padding: 14px;
+font-size: 14px;
+margin-top: 20px;
+width: 30%;
+}
+
+.connection-button {
+padding-top: 40px;
+}
+
+
+input {
+font-family: sans-serif;
+background-color: white;
+border: 2px solid #CBC3E3;
+border-radius: 13px;
+padding: 11px;
+font-size: 13px;
+color: black;
+}
+
+
+.image-container {
+width: 30%;
+text-align: right;
+}
+
+.globe-image {
+max-width: 400px;
+height: auto;
+display: block;
+padding-left: 25%;
+}
+
+
+@media (max-width: 768px) {
+.content-container {
+flex-direction: column;
+align-items: flex-start;
+}
+
+.text-content, .image-container {
+width: 100%;
+
+}
+
+.text-content p {
+font-size: 17px;
+width: 100%;
+}
+
+.connection-button button {
+width: 50%;
+
+}
+
+.globe-image{
+width: 100%;
+height: auto;
+display: block;
+}
+}
